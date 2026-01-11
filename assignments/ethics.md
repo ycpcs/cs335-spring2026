@@ -31,10 +31,9 @@ Understand what the law prohibits — you don’t want to end up like:
 - [Russian FSB Officers](https://www.justice.gov/usao-ndca/pr/us-charges-russian-fsb-officers-and-their-criminal-conspirators-hacking-yahoo-and) charged for hacking Yahoo and user emails. All of Yahoo’s 3 billion accounts were impacted.
 - Hacker for hire [Karim Baratov](https://www.justice.gov/usao-ndca/pr/international-hacker-hire-who-conspired-and-aided-russian-fsb-officers-sentenced-five) gets 5 years in prison and $2.25 million restitution fees.
 - Ross Ulbricht, aka [Dread Pirate Roberts](https://www.ice.gov/news/releases/ross-ulbricht-aka-dread-pirate-roberts-sentenced-life-federal-prison-creating), sentenced to life in federal prison for creating, operating ‘Silk Road’ website.
-
 - Ongoing Global Arrests & Convictions [HACK BLOTTER](https://cybersecurityventures.com/hack-blotter/)
   
-Please review Ken Thomson's [Review on Trusting Trust](./files/Thompson_1984_ReflectionsonTrustingTrust.pdf) __and__ the college’s policy on [Acceptable Use](https://service.ycp.edu/TDClient/219/Portal/KB/ArticleDet?ID=7381) for guidelines concerning proper use of information technology.
+Please review Ken Thomson's [Review on Trusting Trust](./files/Thompson_1984_ReflectionsonTrustingTrust.pdf) __and__ the college’s policy on [Acceptable Use](https://service.ycp.edu/TDClient/219/Portal/KB/ArticleDet?ID=18716) for guidelines concerning proper use of information technology.
 
 <sup>*</sup> make sure you are not on VPN to read those. 
 

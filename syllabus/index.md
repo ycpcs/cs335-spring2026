@@ -135,7 +135,7 @@ Quizzes
 <strong>Quizzes may include a programming component.</strong> The second half of the class may be used for instruction and/or laboratory work.
 <strong>A total of two quizzes will be administered.</strong>
 
-<strong>No make-up quiz will be given without approval of the instructor prior to class unless proof of extreme emergency or illness is provided.</strong>
+<strong>No make-up quiz will be given without approval of the instructor prior to class unless **proof** of extreme emergency or illness is provided.</strong>
 
 Data collection statement
 -----------------
@@ -157,28 +157,6 @@ The following policy pertains to homework and graded (individual) Lab assignment
 There may be some non-graded lab assignments (I will precisely stress that) - therefore, you may work with other students on them. However, I do expect you to complete them. You are encouraged to utilize the class time to work on the labs and ask any questions about them.
 
 When a faculty member believes a student has committed an act of academic dishonesty, the faculty member must inform the student in writing and then has ten business days from that written notification to the student to report the incident to the Dean of Academic Affairs and the Department Chair. Documentation related to instances of academic dishonesty will be kept on file in the student’s permanent record. If the academic dishonesty is the student’s first offense, the faculty member will have the discretion to decide on a suitable sanction up to a grade of 0 for the course. Students are not permitted to withdraw from a course in which they have been accused of academic dishonesty.
-
-Attendance and Participation
------------------
-I expect you to attend class and participate regularly in class activities. If you miss a class, please notify me in advance. You are responsible for all material covered in class, regardless of whether or not you were present. If you attend and participate in class regularly, you can expect to receive full credit for attendance and participation. Frequent absence and/or lack of participation will reduce the credit you receive for attendance and participation. You are responsible for keeping up with the reading assignments as described in the course schedule.
-
-Professionalism
------------------
-
-I expect you to conduct yourself as a professional in this course. Professionalism includes:
-
--   Respect for and courteous interaction with peers, faculty and facilities;
--   Integrity, which includes at its core honesty, responsibility and accountability for one’s own actions;
--   Sensitivity and appreciation for diverse cultures, backgrounds, and life experiences;
--   Constructive evaluation, which means that criticism is offered and accepted in a productive manner;
--   Self-reflection and identification of one’s own strengths and weaknesses;
--   Responsibility for one’s own education and learning;
--   An attitude that fosters professional behavior in colleagues and peers;
--   Punctuality at meetings and class sessions;
--   Attentive behavior during class sessions, avoiding personal or social use of cell phones, laptops, or other electronic devices;
--   Acknowledgement of the Kinsley Engineering Center as a professional workplace, and treatment of this facility as a business or office space, not as an informal space.
-
-I reserve the right to enforce this code through the York College Code of Student Conduct.
 
 Academic Integrity Policy (Philosophy Statement)
 -----------------
@@ -214,6 +192,27 @@ Academic Integrity Procedure – Reporting
 -   If the Associate Provost of Academic Services determines that the incident of academic dishonesty is the student’s second or subsequent offense, he or she will provide written documentation to the student, faculty member, and Department Chair. The Student Welfare Committee will automatically conduct a hearing to review the charge and decide on an appropriate sanction: academic probation, suspension or dismissal from the College.
 -   Academic Services will receive written notification of the Student Welfare Committee’s decision. Students who are unsatisfied with the decision may submit a second and final written appeal to the Associate Provost of Academic Services within 72 hours of receiving notification of the Student Welfare Committee’s decision. All decisions made by the Associate Provost of Academic Services will be final.
 
+Attendance and Participation
+-----------------
+I expect you to attend class and participate regularly in class activities. If you miss a class, please notify me in advance. You are responsible for all material covered in class, regardless of whether or not you were present. If you attend and participate in class regularly, you can expect to receive full credit for attendance and participation. Frequent absence and/or lack of participation will reduce the credit you receive for attendance and participation. You are responsible for keeping up with the reading assignments as described in the course schedule.
+
+Professionalism
+-----------------
+
+I expect you to conduct yourself as a professional in this course. Professionalism includes:
+
+-   Respect for and courteous interaction with peers, faculty and facilities;
+-   Integrity, which includes at its core honesty, responsibility and accountability for one’s own actions;
+-   Sensitivity and appreciation for diverse cultures, backgrounds, and life experiences;
+-   Constructive evaluation, which means that criticism is offered and accepted in a productive manner;
+-   Self-reflection and identification of one’s own strengths and weaknesses;
+-   Responsibility for one’s own education and learning;
+-   An attitude that fosters professional behavior in colleagues and peers;
+-   Punctuality at meetings and class sessions;
+-   Attentive behavior during class sessions, avoiding personal or social use of cell phones, laptops, or other electronic devices;
+-   Acknowledgement of the Kinsley Engineering Center as a professional workplace, and treatment of this facility as a business or office space, not as an informal space.
+
+I reserve the right to enforce this code through the York College Code of Student Conduct.
 
 Use of Personal Technology in the Classroom
 -----------------
