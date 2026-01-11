@@ -19,14 +19,14 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 03 | Jan 27 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href=".\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
 > 03 | Jan 29 | Buffer Overflow: Hijack Program Execution Flow | <a href="..\labs\buffer\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a> |
 > | | | |
-> 04 | Feb 03 | | |
-> 04 | Feb 05 | | |
+> 04 | Feb 03 | Network Basics | |
+> 04 | Feb 05 | ARP Spoofing | |
 > | | | |
-> 05 | Feb 10 | | |
-> 05 | Feb 12 | | |
+> 05 | Feb 10 | IP and ICMP | |
+> 05 | Feb 12 | UDP | |
 > | | | |
-> 06 | Feb 17 | | |
-> 06 | Feb 19 | | |
+> 06 | Feb 17 | Attacks on TCP Protocol | |
+> 06 | Feb 19 | TCP Session Hijacking | |
 > | | | |
 > 07 | Feb 24 | __Exam 1__ | |
 > 08 | Feb 26 | | |
@@ -34,31 +34,31 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 03 | _Winter Break_ | |
 > 08 | Mar 05 | _Winter Break_ | |
 > | | | |
-> 09 | Mar 10 | | |
-> 09 | Mar 12 | | |
+> 09 | Mar 10 | DNS and DNS Attacks | |
+> 09 | Mar 12 | DNS Attacks | |
 > | | | |
-> 10 | Mar 17 | | |
-> 10 | Mar 29 | | |
+> 10 | Mar 17 | Web Security Basics | |
+> 10 | Mar 29 | Cross-Site Request Forgery | |
 > | | | |
-> 11 | Mar 24 | | |
-> 11 | Mar 26 | | |
+> 11 | Mar 24 | Cross-Site Scripting | |
+> 11 | Mar 26 | Clickjacking | |
 > | | | |
-> 12 | Mar 31 | | |
-> 12 | Apr 02 | | |
+> 12 | Mar 31 | SQL Injection | |
+> 12 | Apr 02 | Public Key Infrastructure | |
 > | | | |
-> 13 | Apr 07 | | |
-> 13 | Apr 09 | | |
+> 13 | Apr 07 | Password Cracking| |
+> 13 | Apr 09 | Game | |
 > | | | |
-> 14 | Apr 14 | Password Cracking | |
-> 14 | Apr 16 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a> | |
+> 14 | Apr 14 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a>  | |
+> 14 | Apr 16 | Thread Modeling | |
 > | | | |
-> 15 | Apr 21 | Thread Modeling | |
+> 15 | Apr 21 | Match | |
 > 15 | Apr 23 | __Exam 2__ | |
 > | | | |
-> 16 | Apr 28 |  *__Student Final Project Presentations__* | |
-> 16 | Apr 30 |  *__Student Final Project Presentations__* | |
+> 16 | Apr 28 | *__Student Project Presentations__* | |
+> 16 | Apr 30 | *__Student Project Presentations__* | |
 > | | | |
-> 17 | May 05 |  *__Student Final Project Presentations__* | |
+> 17 | May 05 | *__Student Project Presentations__* | |
 
 <sup>*</sup> Optional 
 

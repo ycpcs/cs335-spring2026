@@ -19,5 +19,10 @@ This is the website for CS335, Cybersecurity, at York College. All information a
 
 ## News
 
+* **May 05** &mdash; Project Presentations (as needed)
+* **Apr 30** &mdash; Project Presentations
+* **Apr 28** &mdash; Project Presentations
+* **Apr 16** &mdash; [Project](assignments/project.html) Code, Slides, Report Due
+* **Feb 06** &mdash; [Project](assignments/project.html) Proposal Due
 * **Jan 15** &mdash; Read and Sign [Ethics](assignments/ethics.html) Due
 * **Jan 13** &mdash; Welcome back!

@@ -1,7 +1,7 @@
 ---
 layout: default
 course_number: CS335
-title: "Final Project"
+title: "Project"
 ---
 
 Proposal: due **Thursday, Feb 6<sup>th</sup>** by 11:59 PM
@@ -21,11 +21,11 @@ Presentations:
 
 ### Introduction
 
-For your final project, you will investigate a cybersecurity topic of your choice. Your project **must** be approved by the instructor, and it should focus on an interesting, relevant issue within computer security. This project gives you the opportunity to explore a topic in greater depth and lead a discussion that enhances the class’s understanding of the subject.
+For your project, you will investigate a cybersecurity topic of your choice. Your project **must** be approved by the instructor, and it should focus on an interesting, relevant issue within computer security. This project gives you the opportunity to explore a topic in greater depth and lead a discussion that enhances the class’s understanding of the subject.
 
 ### Your Task
 
-The goal of the final project is to examine a specific security issue in greater depth. You will:
+The goal of the project is to examine a specific security issue in greater depth. You will:
 - Select a topic related to cybersecurity
 - Lead a class discussion on the topic
 - Provide the instructor with several relevant articles or websites **ahead** of your discussion date
@@ -89,7 +89,7 @@ Your project will be evaluated as a complete package. Both the difficulty of the
 - More challenging topics may require less extensive analysis
 - Simpler topics will require deeper discussion, stronger evaluation, or more substantial results
 
-Both the written report and the presentation contribute to your final project grade, with the report carrying more weight.
+Both the written report and the presentation contribute to your project grade, with the report carrying more weight.
 
 ### Submitting
 

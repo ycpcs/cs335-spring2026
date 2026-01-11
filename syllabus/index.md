@@ -84,7 +84,7 @@ Your overall grade for the course will be determined as follows:
 
 -   Labs and assignments: 10% (†)
 -   2 Quizzes: 50%
--   Final project: 30% (†)
+-   Project: 30% (†)
 -   Attendance and participation: 10%
 
 (†) You are expected to make a genuine, good‑faith effort on every assignment and project in this course. Failure to complete all required work may result in a significantly reduced grade or a failing grade for the course.
@@ -122,10 +122,10 @@ Any Programming assignments will be graded based on the following criteria:
 >
 > 0: **Failure.** The program does not execute.
 
-Final Project
+Project
 -----------------
 
-The final project will center on a cybersecurity topic of your choice that is not covered in class. Its purpose is to give you the opportunity to explore a specific issue in greater depth. To support steady progress, you will complete several milestones throughout the semester. The project will conclude with a final demonstration during the exam period, where you will showcase the functionality you have developed.
+The project will center on a cybersecurity topic of your choice that is not covered in class. Its purpose is to give you the opportunity to explore a specific issue in greater depth. To support steady progress, you will complete several milestones throughout the semester. The project will conclude with a final demonstration during the exam period, where you will showcase the functionality you have developed.
 
 Quizzes
 -----------------
