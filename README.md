@@ -1,5 +1,6 @@
 ---
 layout: default
+course_number: CS335
 title: README
 ---
 

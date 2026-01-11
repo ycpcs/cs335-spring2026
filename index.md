@@ -1,5 +1,6 @@
 ---
 layout: default
+course_number: CS335
 title: Home page
 ---
 # Welcome to CS 335, Spring 2026!
