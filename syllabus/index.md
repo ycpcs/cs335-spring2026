@@ -33,7 +33,7 @@ IFS225, IFS230 and IFS320 with a grade of 2.0 or higher
 
 Required Textbook
 -----------------
-Wenliang Du, <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach/9781733003964/?course_id=4643336">Internet Security : A Hands-On Approach</a>. Wenliang Du; 3 edition, 2022, ISBN: 9781733003964. 
+Wenliang Du, <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach/9781733003964/?course_id=4643336">Internet Security : A Hands-On Approach</a>. Wenliang Du; 3 edition, 2022, ISBN: 9781733003964. <a href="https://www.handsonsecurity.net/adoptions.html" target="_blank">Adoptions Around the World</a>
 
 Course Structure and Expectations
 ---------------------------------
