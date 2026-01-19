@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Reverse Shell](#reverse-shell)
 - [Upgrade VM](#upgrade-vm)
 - [Setup Environment](#setup-environment)
 - [File Commands and Directory Navigation](#file-commands-and-directory-navigation)
@@ -13,6 +14,14 @@ This page contains links to notes and code snippets.
 - [Networking](#networking)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Reverse Shell
+- File Descriptors Intro: <a href=".\reverse-shell\fd.c" target="_blank">fd.c</a> 
+- Redirection: <a href=".\reverse-shell\redirect.c" target="_blank">redirect.c</a>
+- Duplicate a file descriptor: <a href=".\reverse-shell\dup.c" target="_blank">dup.c</a> and <a href=".\reverse-shell\dup2.c" target="_blank">dup2.c</a>
+- Redirecting IO to TCP Connections: <a href=".\reverse-shell\tcp_in.c" target="_blank">tcp_in.c</a> and <a href=".\reverse-shell\tcp_out.c" target="_blank">tcp_out.c</a>
+  
+<a href="#">To top</a>
 
 #### Upgrade VM 
 - ```sudo apt update``` - downloads package information from all configured sources.
