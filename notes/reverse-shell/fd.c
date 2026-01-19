@@ -14,15 +14,15 @@ void main()
     {
         char *data = "Learning about descriptors!\n";
         write(fd, data, strlen(data));
+
+        // printf("Printing the Standard file descriptors:\n");
+
+        // printf("Standard in: %d\n", STDIN_FILENO);
+        // printf("Standard out: %d\n", STDOUT_FILENO);
+        // printf("Standard error: %d\n", STDERR_FILENO);
+
+        printf("Process Id: %d\n", getpid());
+        // getchar();
         close(fd);
     }
-
-    // printf("Printing the Standard file descriptors:\n");
-
-    // printf("Standard in: %d\n", STDIN_FILENO);
-    // printf("Standard out: %d\n", STDOUT_FILENO);
-    // printf("Standard error: %d\n", STDERR_FILENO);
-
-    // printf("%d\n", getpid());
-    // getchar();
 }
