@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Shellshock](#shellshock)
 - [Reverse Shell](#reverse-shell)
 - [Upgrade VM](#upgrade-vm)
 - [Setup Environment](#setup-environment)
@@ -15,8 +16,16 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+#### Shellshock
+- Set-UID Example: <a href=".\shellshock\vul.c" target="_blank">vul.c</a>
+- Setup files: [Labsetup.zip](shellshock\Labsetup.zip)
+  - ```curl -o Labsetup.zip  https://ycpcs.github.io/cs335-spring2025/labs/shellshock/Labsetup.zip```
+  - ```unzip Labsetup.zip```
+
+<a href="#">To top</a>
+
 #### Reverse Shell
-- Setup files: [Labsetup.zip](Labsetup.zip)
+- Setup files: [Labsetup.zip](reverse-shell\Labsetup.zip)
 - File Descriptors Intro: <a href=".\reverse-shell\fd.c" target="_blank">fd.c</a> 
 - Redirection: <a href=".\reverse-shell\redirect.c" target="_blank">redirect.c</a>
 - Duplicate a file descriptor: <a href=".\reverse-shell\dup.c" target="_blank">dup.c</a> and <a href=".\reverse-shell\dup2.c" target="_blank">dup2.c</a>
