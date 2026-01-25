@@ -36,7 +36,7 @@ Lists all currently running containers.
 
 ### Access a Running Container
 
-#### `docker exec -it <container> /bin/bash`
+#### `docker exec -it <container id> /bin/bash`
 Opens an interactive Bash shell inside the specified running container.
 
 ### Copy Files Between Host and Container
