@@ -82,12 +82,7 @@ To achieve the redirection performed by the command:
 ```bash
 cat 1>&3
 ```
-which system call is invoked:
-- `dup2(1, 3)`  
-or
-- `dup2(3, 1)`?
-
-Explain your reasoning.
+which system call is invoked: `dup2(1, 3)` or `dup2(3, 1)`? Explain your reasoning.
 
 ### Problem 4
 You want a program to receive input from another machine (Machine A, IP address 10.0.2.6) and send its output back to the same machine. After running:
