@@ -18,19 +18,19 @@ This page contains links to notes and code snippets.
 - [Clone a website](#clone-a-website)
 
 #### Buffer Overflow 
-- Buffer Overflow Example: <a href=".\buffer\buffer.c" target="_blank">buffer.c</a>
-  - Use ```-m32 -fno-stack-protector```
 - Memory Layout: <a href=".\buffer\layout.c" target="_blank">layout.c</a>
   - Use ```-m32```
-- Launching shell: <a href=".\buffer\launch_shell.c" target="_blank">launch_shell.c</a>
-- Old shellcode: <a href=".\buffer\shellcode.c" target="_blank">shellcode.c</a>
-  - Compile with: ```-m32 -z execstack```
+- Buffer Overflow Example: <a href=".\buffer\buffer.c" target="_blank">buffer.c</a>
+  - Use ```-m32 -fno-stack-protector```
 - ASCII vs binary: <a href=".\buffer\print_zero.c" target="_blank">print_zero.c</a>
-- Print *esp*: <a href=".\buffer\sp.c" target="_blank">sp.c</a>
 - ASLR: <a href=".\buffer\aslr.c" target="_blank">aslr.c</a>
+- Launching shell: <a href=".\buffer\launch_shell.c" target="_blank">launch_shell.c</a>
 - Setup files: [Labsetup.zip](..\labs\buffer\Labsetup.zip)
   - Turn off address randomization: ```sudo /sbin/sysctl -w kernel.randomize_va_space=0```
   - Update Symbolic Link: ```sudo ln -sf /bin/zsh /bin/sh```
+- Old shellcode: <a href=".\buffer\shellcode.c" target="_blank">shellcode.c</a>
+  - Compile with: ```-m32 -z execstack```
+- Print *esp*: <a href=".\buffer\sp.c" target="_blank">sp.c</a>
 
 <a href="#">To top</a>
 

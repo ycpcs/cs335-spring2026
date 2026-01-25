@@ -9,6 +9,6 @@ int main(int argc, char **argv)
    memset(dest, 0x00, sizeof(dest));
 
    strcpy(dest, src);
-
-   printf("%s", dest);
+   printf("src: %s", src);
+   printf("dest: %s", dest);
 }
