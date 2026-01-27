@@ -25,7 +25,7 @@ This page contains links to notes and code snippets.
 - ASCII vs binary: <a href=".\buffer\print_zero.c" target="_blank">print_zero.c</a>
 - ASLR: <a href=".\buffer\aslr.c" target="_blank">aslr.c</a>
 - Launching shell: <a href=".\buffer\launch_shell.c" target="_blank">launch_shell.c</a>
-- Setup files: [Labsetup.zip](..\labs\buffer\Labsetup.zip)
+- Setup files: [Labsetup.zip](.\buffer\Labsetup.zip)
   - Turn off address randomization: ```sudo /sbin/sysctl -w kernel.randomize_va_space=0```
   - Update Symbolic Link: ```sudo ln -sf /bin/zsh /bin/sh```
 - Old shellcode: <a href=".\buffer\shellcode.c" target="_blank">shellcode.c</a>
