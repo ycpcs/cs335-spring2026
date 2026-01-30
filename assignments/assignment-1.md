@@ -9,7 +9,7 @@ This assignment introduces students to the concepts behind reverse shells and th
 
 --- 
 ## Lab Environment and hints 
-Setup files: Labsetup.zip
+Setup files: [Labsetup.zip](https://ycpcs.github.io/cs335-spring2026/notes/shellshock/Labsetup.zip)
 ```bash 
 curl -o Labsetup.zip https://ycpcs.github.io/cs335-spring2026/notes/shellshock/Labsetup.zip
 unzip Labsetup.zip
