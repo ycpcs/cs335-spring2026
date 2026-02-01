@@ -190,3 +190,6 @@ write(3, data, 100);
 ### Problem 5
 Open two terminal windows in Ubuntu and list the contents of the `/dev/fd` directory in each. Explain why the two windows show different results.
 (Hint: `/dev/fd` is a symbolic link to `/proc/self/fd`, and `self` refers to the current process.)
+
+### Grading Submission
+Submit your lab report, including **screenshots**, via [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date listed in the syllabus.
