@@ -14,13 +14,13 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 01 | Jan 15 | [Root Causes for Vulnerability](../slides/Reason_Vulnerability.pdf) | [The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
 > | | | |
 > 02 | Jan 20 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
-> 02 | Jan 22 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 | 
+> 02 | Jan 22 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 | [Reverse Shell & shellshock](../assignments/assignment-1.html)
 > | | | |
 > 03 | Jan 27 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href=".\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
 > 03 | Jan 29 | Buffer Overflow: Hijack Program Execution Flow | <a href=".\papers\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a> |
 > | | | |
-> 04 | Feb 03 | Network Basics | |
-> 04 | Feb 05 | ARP Spoofing | |
+> 04 | Feb 03 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
+> 04 | Feb 05 | [ARP Spoofing](../slides/MAC_ARP.pdf) | IS: Ch 2 |
 > | | | |
 > 05 | Feb 10 | IP and ICMP | |
 > 05 | Feb 12 | UDP | |

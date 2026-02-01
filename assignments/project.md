@@ -15,8 +15,9 @@ Presentations:
 
 ### Topics already picked
 
-| Student | Topic |
-| ------- | ----- |
+| Student | Topic                                            |
+| ------- | ------------------------------------------------ |
+| AH      | Combining TOR and I2P enabling layered anonymity |
 
 
 ### Introduction
