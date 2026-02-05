@@ -4,7 +4,7 @@ course_number: CS335
 title: "Project"
 ---
 
-Proposal: due **Thursday, Feb 6<sup>th</sup>** by 11:59 PM
+Proposal: due **Friday, Feb 6<sup>th</sup>** by 11:59 PM
 
 Code, slides and report: due **Thursday, Apr 16<sup>th</sup>** by 11:59 PM
 
@@ -18,6 +18,8 @@ Presentations:
 | Student | Topic                                            |
 | ------- | ------------------------------------------------ |
 | AH      | Combining TOR and I2P enabling layered anonymity |
+| JH      | RFID spoofing \ Flipper Zero                     |
+|         | Keyloggers                                       |
 
 
 ### Introduction
