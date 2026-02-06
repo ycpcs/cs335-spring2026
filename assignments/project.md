@@ -22,8 +22,9 @@ Presentations:
 | ACE     | Keyloggers                                       |
 | EN      | Ransomare                                        |
 | SH      | Hacking 2FA                                      |
-|         | Location based Authentication and Geofencing     |
-|         | Hacking Bluetooth                                |
+| JH      | Location based Authentication and Geofencing     |
+| EP      | Hacking Bluetooth                                |
+| EN      | QR Code security                                 |
 
 
 ### Introduction
