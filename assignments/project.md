@@ -20,7 +20,7 @@ Presentations:
 | AH      | Combining TOR and I2P enabling layered anonymity |
 | JH      | RFID spoofing \ Flipper Zero                     |
 | ACE     | Keyloggers                                       |
-| EN      | Ransomare                                        |
+| EN      | Ransomware                                        |
 | SH      | Hacking 2FA                                      |
 | JH      | Location based Authentication and Geofencing     |
 | EP      | Hacking Bluetooth                                |
