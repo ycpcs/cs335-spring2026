@@ -1,0 +1,13 @@
+#!/bin/env python3
+import socket
+from datetime import datetime
+
+udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+udp.bind(("0.0.0.0", 9013))
+
+while True:
+    data, (ip, port) = udp.recvfrom(1024)
+    print ("Source {}:{}: {}".format(ip, port, str(data, 'utf-8')))
+
+    now =  datetime.now().isoformat()
+    udp.sendto((now + "\n").encode('utf-8'), (ip, port))

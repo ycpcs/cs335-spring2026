@@ -6,7 +6,10 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [UDP](#udp)
+- [IP](#ip)
 - [ARP](#arp)
+- [Networking](#networking)
 - [Buffer Overflow](#buffer-overflow)
 - [Shellshock](#shellshock)
 - [Reverse Shell](#reverse-shell)
@@ -14,9 +17,28 @@ This page contains links to notes and code snippets.
 - [Setup Environment](#setup-environment)
 - [File Commands and Directory Navigation](#file-commands-and-directory-navigation)
 - [Permissions](#permissions)
-- [Networking](#networking)
+- [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### UDP 
+- Time Server: <a href=".\udp\udp_server.txt" target="_blank">udp_server.py</a>
+- Attack: <a href=".\udp\udp_attack.txt" target="_blank">udp_attack.py</a>
+- UDP Flood: <a href=".\udp\flood.txt" target="_blank">flood.py</a>
+- DNS Query: <a href=".\udp\dns.txt" target="_blank">dns.py</a>
+
+<a href="#">To top</a>
+
+#### IP 
+- Ping: <a href=".\ip\ping.txt" target="_blank">ping.py</a>
+- Traceroute: <a href=".\ip\traceroute.txt" target="_blank">traceroute.py</a>
+- Docker Compose: <a href=".\ip\docker-compose.yml" target="_blank">docker-compose.yml</a>
+- Fragment: <a href=".\ip\fragment.txt" target="_blank">fragment.py</a>
+- ICMP: <a href=".\ip\icmp.txt" target="_blank">icmp.py</a>
+- ICMP Redirect: <a href=".\ip\icmp_redirect.txt" target="_blank">icmp_redirect.py</a>
+  - ```sysctl net.ipv4.conf.all.accept_redirects=1```
+
+<a href="#">To top</a>
 
 #### ARP
 - Docker Compose: <a href=".\arp\docker-compose.yml" target="_blank">docker-compose.yml</a>
@@ -24,6 +46,18 @@ This page contains links to notes and code snippets.
 - arp poisoning: <a href=".\arp\arp.txt" target="_blank">arp.py</a>
 - arp mitm: <a href=".\arp\mitm.txt" target="_blank">mitm.py</a>
   - ```sysctl -w net.ipv4.ip_forward=0```
+  
+<a href="#">To top</a>
+
+#### Networking 
+- udp_client: <a href=".\network\udp_client.txt" target="_blank">udp_client.py</a>
+- udp_server: <a href=".\network\udp_server.txt" target="_blank">udp_server.py</a>
+- Lab Setup: <a href=".\network\docker-compose.yml" target="_blank">docker-compose.yml</a>
+- Scapy: 
+  - sniff: <a href=".\network\sniff.txt" target="_blank">sniff.py</a>
+  - icmp_spoof: <a href=".\network\icmp_spoof.txt" target="_blank">icmp_spoof.py</a>
+  - udp_spoof: <a href=".\network\udp_spoof.txt" target="_blank">udp_spoof.py</a>
+  - sniff_spoof: <a href=".\network\sniff_spoof.txt" target="_blank">sniff_spoof.py</a>
   
 <a href="#">To top</a>
 

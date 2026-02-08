@@ -1,0 +1,11 @@
+#!/bin/env python3
+
+from scapy.all import *
+
+ip   = IP(src="10.9.0.105", dst="10.9.0.111")
+udp  = UDP(sport=9013, dport=9013)
+data = "Burn Baby Burn!\n"
+
+pkt = ip/udp/data
+pkt.show()
+send(pkt, verbose=0)

