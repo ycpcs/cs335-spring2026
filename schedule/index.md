@@ -23,7 +23,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 04 | Feb 05 | [ARP Spoofing](../slides/MAC_ARP.pdf) | IS: Ch 2 |
 > | | | |
 > 05 | Feb 10 | [IP and ICMP](../slides/IP_ICMP.pdf) |  IS: Ch 3 |
-> 05 | Feb 12 | [UDP](../slides/UDP.pdf) | IS: Ch 15, <a href=".\papers\amplification-ndss2014.pdf" target="_blank">Amplification Hell</a> |
+> 05 | Feb 12 | [UDP](../slides/UDP.pdf) | IS: Ch 5, <a href=".\papers\amplification-ndss2014.pdf" target="_blank">Amplification Hell</a> |
 > | | | |
 > 06 | Feb 17 | Attacks on TCP Protocol | |
 > 06 | Feb 19 | TCP Session Hijacking | |
