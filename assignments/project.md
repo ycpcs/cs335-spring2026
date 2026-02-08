@@ -26,6 +26,11 @@ Presentations:
 | EP      | Hacking Bluetooth                                |
 | EN      | QR Code security                                 |
 | NY      | Caller ID spoofing                               |
+| EO      | Identity Spoofing (Network Stack)                |
+| LK      | MIME & file extension spoofing                   |
+| TS      | Compile Time Randomization                       |
+| TW      | Zero Trust                                       |
+
 
 ### Introduction
 
