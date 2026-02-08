@@ -12,11 +12,18 @@ By the end of this lab, you will be able to:
 - Explain how stack-based buffer overflows occur
 - Analyze stack memory layout on 32-bit Linux systems
 - Exploit a buffer overflow to redirect program control flow
-- Construct shellcode-based exploits against Set-UID programs
-- Understand and evaluate modern defense mechanisms such as stack canaries and ASLR
-
+- Use shellcode-based exploits against Set-UID programs
+- Understand and evaluate modern defense mechanisms 
+  
 ## Ethical Use Notice
 This lab is intended **only for educational use in a controlled environment**. The techniques demonstrated here must not be applied to systems you do not own or have explicit permission to test.
+
+## Lab Environment 
+Setup files: [Labsetup.zip](..\notes\buffer\Labsetup.zip)
+```bash 
+curl -o Labsetup.zip https://ycpcs.github.io/cs335-spring2026/notes/buffer/Labsetup.zip
+unzip Labsetup.zip
+```
 
 ## Background
 A buffer overflow occurs when a program writes more data to a memory buffer than it was allocated to hold. On systems that do not enforce proper memory safety, this can allow attackers to overwrite adjacent memory regions, including control-flow data such as return addresses. Historically, buffer overflows have been a major source of real-world vulnerabilities.
@@ -65,7 +72,7 @@ Disable stack protection and allow executable stack:
 ```
 To turn off Address Space Layout Randomization (ASLR): ```$ sudo sysctl -w kernel.randomize_va_space=0```
   - Check the current randomization status: ```$ sudo sysctl kernel.randomize_va_space```
-Compile the program in 32-bit mode using the ```-m32`` flag
+Compile the program in 32-bit mode using the ```-m32``` flag
 
 ### Report Requirements (Part 1)
 Include the following in your report:
@@ -91,7 +98,7 @@ sudo sysctl -w kernel.randomize_va_space=0
 ```
 
 #### Configure `/bin/sh`
-Modern Linux systems link `/bin/sh` to `dash`, which drops privileges when executed from a Set-UID process. To avoid this behavior, relink `/bin/sh` to `zsh`:
+Current Linux systems link `/bin/sh` to `dash`, which drops privileges when executed from a Set-UID process. To avoid this behavior, relink `/bin/sh` to `zsh`:
 
 ```bash
 sudo ln -sf /bin/zsh /bin/sh
@@ -123,7 +130,7 @@ Compile using the `Makefile`:
 - a32.out → 32‑bit version
 - a64.out → 64‑bit version
 
-Run both and *observe* the behavior.
+Run both and observe the behavior.
 
 #### Task 2 — Understanding the Vulnerable Program
 
