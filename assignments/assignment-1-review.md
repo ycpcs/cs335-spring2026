@@ -1,14 +1,12 @@
 ---
 layout: default
 course_number: CS335
-title: Assignment 1
+title: Assignment 1 - Review 
 ---
-
-# Assignment – Reverse Shells and Shellshock
-This assignment introduces students to the concepts behind reverse shells and the Shellshock vulnerability. The goal is to help students understand how file descriptors, redirection, and environment‑variable–based function imports interact with system behavior.
-
+# Assignment Review – Reverse Shells and Shellshock
 ---
 ## Part I — Reverse Shell Concepts
+
 ### Problem 1
 Run the following command in a Bash shell:
 ```bash 
