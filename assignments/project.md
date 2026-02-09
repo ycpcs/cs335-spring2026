@@ -30,6 +30,7 @@ Presentations:
 | LK      | MIME & file extension spoofing                   |
 | TS      | Compile Time Randomization                       |
 | TW      | Zero Trust                                       |
+| EV      | Blockchain vulnerabilities                       |
 
 
 ### Introduction
