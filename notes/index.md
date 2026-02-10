@@ -37,6 +37,7 @@ This page contains links to notes and code snippets.
 - ICMP: <a href=".\ip\icmp.txt" target="_blank">icmp.py</a>
 - ICMP Redirect: <a href=".\ip\icmp_redirect.txt" target="_blank">icmp_redirect.py</a>
   - ```sysctl net.ipv4.conf.all.accept_redirects=1```
+- mitm: <a href=".\ip\mitm.txt" target="_blank">mitm.py</a>
 
 <a href="#">To top</a>
 
