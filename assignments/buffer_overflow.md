@@ -31,7 +31,7 @@ A buffer overflow occurs when a program writes more data to a memory buffer than
 This lab explores buffer overflow attacks in a **32-bit Linux environment**, where stack-based exploitation is easier to study due to predictable calling conventions and limited address-space randomization.
 
 - <a href="..\schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow Attack</a>
-- <a href=".\buffer\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a>
+- <a href="..\schedule\papers\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a>
 
 ## Part 1: Analyzing a Hidden Backdoor in Legacy Code
 ------------------------------------------------------------
@@ -52,7 +52,7 @@ The compromised component was an internal command‑line tool and two critical i
 - By exploiting the buffer overflow, execution could be redirected to this function
 
 #### Your Task
-You are provided with the source file `bof_rs.c`, which contains the unused function `call_home()`.
+You are provided with the source file [bof_rs.c](.\buffer\bof_rs.c), which contains the unused function `call_home()`.
 
 Your objective is to:
 - Analyze the program’s stack layout
