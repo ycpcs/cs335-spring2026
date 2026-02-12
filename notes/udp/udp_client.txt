@@ -2,11 +2,10 @@
 import socket
 
 udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-udp.bind(("0.0.0.0", 9999))
+#udp.bind(("0.0.0.0", 9013))
 
-data = b"Hello, Server 1\n"
-udp.sendto(data, ("10.9.0.5", 9090))
+data = b"Get me the time\n"
+udp.sendto(data, ("10.9.0.5", 9013))
 
-
-data = b"Hello, Server 2\n"
-udp.sendto(data, ("10.9.0.6", 9091))
+data, (ip, port) = udp.recvfrom(1024)
+print ("Source {}:{}: {}".format(ip, port, str(data, 'utf-8')))
