@@ -23,6 +23,7 @@ This is the website for CS335, Cybersecurity, at York College. All information a
 * **Apr 30** &mdash; Project Presentations
 * **Apr 28** &mdash; Project Presentations
 * **Apr 16** &mdash; [Project](assignments/project.html) Code, Slides, Report Due
+* **Feb 26** &mdash; Ethernet, IP, ICMP & UDP [Assignment](assignments/assignment-2.html) Due
 * **Feb 22** &mdash; Buffer Overflow [Lab](assignments/buffer_overflow.html) Due
 * <span style="color:#888;">**Feb 06** &mdash; [Project](assignments/project.html) Proposal Due</span>
 * <span style="color:#888;">**Feb 03** &mdash; Reverse Shell and Shellshock [Assignment](assignments/assignment-1.html) Due</span>
