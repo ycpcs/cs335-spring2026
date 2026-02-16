@@ -1,7 +1,7 @@
 ---
 layout: default
 course_number: CS335
-title: Assignment 1
+title: Assignment 2
 ---
 
 # Assignment – Ethernet, IP & ICMP and UDP
@@ -173,7 +173,8 @@ Bob runs it on:
 ### Problem 5
 UDP services are commonly used in amplification attacks. Why is TCP generally not suitable for amplification attacks?
 
-### Grading Submission
+---
+## Grading Submission
 Submit your lab report, including **screenshots**, via [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date listed in the syllabus.
 Your submission must include:
 - Written answers
