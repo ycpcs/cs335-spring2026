@@ -1,0 +1,25 @@
+#!/bin/env python3
+import socket
+import os
+
+tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+tcp.bind(("0.0.0.0", 9090))
+
+backlog = 5
+tcp.listen(backlog)
+
+while True:
+    conn, addr = tcp.accept()
+    if os.fork() > 0:
+        conn.close()
+    else:
+        tcp.close()
+        with conn:
+            print('Connected by', addr)
+            while True:
+                data = conn.recv(1024)
+                if not data:
+                    break
+                print(data)
+                conn.sendall(b"Got the data!\n") 

