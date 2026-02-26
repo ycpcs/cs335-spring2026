@@ -33,8 +33,6 @@ This lab is intended **solely for educational use within a controlled environmen
 
 ---
 
-# TCP/IP Attack Lab — Detailed Task Summary
-
 ## Task 1: SYN Flooding Attack
 
 ### 1.1 Launching a SYN Flood Using Python
@@ -121,6 +119,8 @@ send(ip/tcp, verbose=0)
 **Extra Credit**:  
 Automate the attack using sniff‑and‑spoof logic so the script detects telnet packets and injects RST packets automatically.
 
+--- 
+
 ## Task 3: TCP Session Hijacking
 
 The goal of this task is to hijack an existing TCP (telnet) session between two victim machines by injecting spoofed packets that appear to come from the legitimate client. By crafting a TCP packet with the correct sequence and acknowledgment numbers, you can cause the telnet server to execute commands supplied by the attacker.
@@ -155,6 +155,8 @@ Automate the attack using a sniff‑and‑spoof approach:
 - Extract sequence/ack numbers dynamically.
 - Inject malicious packets automatically.
 
+---
+
 ## Task 4: Creating a Reverse Shell Using TCP Session Hijacking
 
 This task builds on Task 3 by using session hijacking to inject a **reverse shell** command into the victim’s telnet session. Instead of running a single command, the attacker establishes an interactive shell on the victim machine.
@@ -181,6 +183,8 @@ This task illustrates how:
 - A single injected command can escalate into full interactive access.
 - Session hijacking can lead to long‑term compromise if not mitigated.
 - Strong authentication, encrypted channels, and unpredictable TCP state are essential for preventing such attacks.
+
+--- 
 
 ### Grading
 
