@@ -13,6 +13,7 @@ Students will analyze real TCP vulnerabilities and perform controlled attacks to
 - TCP reset attacks
 - TCP session hijacking
 - Reverse shells
+
 This foundation prepares students to recognize, avoid, and defend against protocol‑level vulnerabilities in real systems. 
 
 ---
