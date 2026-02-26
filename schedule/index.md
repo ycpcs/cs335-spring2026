@@ -29,13 +29,13 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 06 | Feb 19 | TCP Session Hijacking | IS: Ch 6 |
 > | | | |
 > 07 | Feb 24 | __Exam 1__ | |
-> 08 | Feb 26 | | |
+> 08 | Feb 26 | In class lab | | [Attacks on TCP](../assignments/tcp.html)
 > | | | |
 > 08 | Mar 03 | _Winter Break_ | |
 > 08 | Mar 05 | _Winter Break_ | |
 > | | | |
-> 09 | Mar 10 | DNS and DNS Attacks | |
-> 09 | Mar 12 | DNS Attacks | |
+> 09 | Mar 10 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
+> 09 | Mar 12 | DNS Attacks | IS: Ch 10 |
 > | | | |
 > 10 | Mar 17 | Web Security Basics | |
 > 10 | Mar 29 | Cross-Site Request Forgery | |
