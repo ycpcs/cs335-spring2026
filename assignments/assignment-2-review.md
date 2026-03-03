@@ -1,7 +1,7 @@
 ---
 layout: default
 course_number: CS335
-title: Assignment 2
+title: Assignment 2 - Review
 ---
 
 # Assignment Review – Ethernet, IP & ICMP and UDP
