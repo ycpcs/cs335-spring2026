@@ -37,11 +37,11 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 09 | Mar 10 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
 > 09 | Mar 12 | DNS Attacks | IS: Ch 10 |
 > | | | |
-> 10 | Mar 17 | Web Security Basics | |
-> 10 | Mar 29 | Cross-Site Request Forgery | |
+> 10 | Mar 17 | Cross-Site Request Forgery | |
+> 10 | Mar 29 | Cross-Site Scripting | |
 > | | | |
-> 11 | Mar 24 | Cross-Site Scripting | |
-> 11 | Mar 26 | Clickjacking | |
+> 11 | Mar 24 | Clickjacking | |
+> 11 | Mar 26 | SQL Injection | |
 > | | | |
 > 12 | Mar 31 | SQL Injection | |
 > 12 | Apr 02 | Public Key Infrastructure | |
