@@ -16,7 +16,7 @@ while True:
     NSsec1 = DNSRR(rrname=query, type="NS", rdata="ns1." + q, ttl=86400)
     NSsec2 = DNSRR(rrname=query, type="NS", rdata="ns2." + q, ttl=86400)
     Addsec1 = DNSRR(rrname="ns1." + q, type="A", rdata="4.3.2.1", ttl=86400)
-    Addsec2 = DNSRR(rrname="ns2" + q, type="A", rdata="5.4.3.2", ttl=86400)
+    Addsec2 = DNSRR(rrname="ns2." + q, type="A", rdata="5.4.3.2", ttl=86400)
     DNSpkt = DNS(
         id=DNSreq.id,
         aa=1,
