@@ -34,8 +34,8 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 03 | _Winter Break_ | |
 > 08 | Mar 05 | _Winter Break_ | |
 > | | | |
-> 09 | Mar 10 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
-> 09 | Mar 12 | DNS Attacks | IS: Ch 10 |
+> 09 | Mar 10 | [DNS](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
+> 09 | Mar 12 | [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
 > | | | |
 > 10 | Mar 17 | Cross-Site Request Forgery | |
 > 10 | Mar 29 | Cross-Site Scripting | |
