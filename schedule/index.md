@@ -35,15 +35,15 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 05 | _Winter Break_ | |
 > | | | |
 > 09 | Mar 10 | [DNS](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
-> 09 | Mar 12 | [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
+> 09 | Mar 12 | [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 | [Local DNS Attacks](../assignments/dns.html)
 > | | | |
-> 10 | Mar 17 | Cross-Site Request Forgery | |
-> 10 | Mar 29 | Cross-Site Scripting | |
+> 10 | Mar 17 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 |
+> 10 | Mar 29 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 |
 > | | | |
-> 11 | Mar 24 | Clickjacking | |
-> 11 | Mar 26 | SQL Injection | |
+> 11 | Mar 24 | Clickjacking | IS: Ch 25 |
+> 11 | Mar 26 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
-> 12 | Mar 31 | SQL Injection | |
+> 12 | Mar 31 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > 12 | Apr 02 | Public Key Infrastructure | |
 > | | | |
 > 13 | Apr 07 | Password Cracking| |
