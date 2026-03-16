@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [CSRF](#csrf)
 - [DNS](#dns)
 - [TCP](#tcp)
 - [UDP](#udp)
@@ -22,6 +23,18 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### CSRF
+  - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+  - Setup files: [Labsetup.zip](.\csrf\Labsetup.zip)
+
+| User    | User Name | Password    |
+| ------- | --------- | ----------- |
+| Admin   | admin     | seedelgg    |
+| Alice   | alice     | seedalice   |
+| Boby    | boby      | seedboby    |
+| Charlie | charlie   | seedcharlie |
+| Samy    | samy      | seedsamy    |
 
 #### DNS
 - [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
