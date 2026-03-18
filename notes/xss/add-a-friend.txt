@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  window.onload = function () {
+
+    var elgg_ts = "&__elgg_ts=" + ;// TODO
+    var elgg_token = "&__elgg_token=" + ; // TODO
+
+    var url = ""; // TODO
+
+    var request = new XMLHttpRequest();
+    request.open("GET", url, true);
+    request.send();
+}
+</script>

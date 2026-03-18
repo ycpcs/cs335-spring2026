@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [XSS](#xss)
 - [CSRF](#csrf)
 - [DNS](#dns)
 - [TCP](#tcp)
@@ -24,6 +25,14 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+#### XSS
+- Setup files: [Labsetup.zip](./xss/Labsetup.zip)
+- Example of add a friend script: <a href="./xss/add-a-friend.txt" target="_blank">add-a-friend.js</a>
+- Example of update profile script: <a href="./xss/update-profile.txt" target="_blank">update-profile.js</a>
+- Self Propagation test: <a href="./xss/self-propagation.html" target="_blank">self-propagation.html</a>
+
+<a href="#">To top</a>
+
 #### CSRF
   - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
   - Setup files: [Labsetup.zip](.\csrf\Labsetup.zip)
@@ -35,6 +44,8 @@ This page contains links to notes and code snippets.
 | Boby    | boby      | seedboby    |
 | Charlie | charlie   | seedcharlie |
 | Samy    | samy      | seedsamy    |
+
+<a href="#">To top</a>
 
 #### DNS
 - [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
