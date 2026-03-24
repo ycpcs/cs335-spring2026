@@ -15,5 +15,6 @@ This page links to homework and programming assignments.
 > Assignment | [Ethernet, IP, ICP & UDP](assignment-2.html) - [Review](assignment-2-review.html) | Feb 26, 2026
 > Lab | [Attacks on TCP](tcp.html) | Mar 10, 2026
 > Lab | [Local DNS Attacks](dns.html) | Mar 26, 2026 
+> Lab | [XSS Attacks](xss.html) | Apr 02, 2026 
 > [Project](project.html) Code, Slides and Report | n/a | Apr 16, 2026
 > [Project](project.html) Demo | n/a | Apr 28, 2026 - May 05, 2026
