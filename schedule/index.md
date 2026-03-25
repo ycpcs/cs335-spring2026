@@ -40,11 +40,11 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 10 | Mar 17 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 |
 > 10 | Mar 19 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 |
 > | | | |
-> 11 | Mar 24 | Clickjacking | IS: Ch 25 |
+> 11 | Mar 24 | Cross-Site Scripting | IS: Ch 23 | [XSS Attacks](../assignments/xss.html)
 > 11 | Mar 26 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
 > 12 | Mar 31 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
-> 12 | Apr 02 | Public Key Infrastructure | |
+> 12 | Apr 02 | Clickjacking | IS: Ch 25 |
 > | | | |
 > 13 | Apr 07 | Password Cracking| |
 > 13 | Apr 09 | Game | |

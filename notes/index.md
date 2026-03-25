@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [SQL](#sql)
 - [XSS](#xss)
 - [CSRF](#csrf)
 - [DNS](#dns)
@@ -24,6 +25,14 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+
+#### SQL
+- Setup files: [Labsetup.zip](./sqli/Labsetup.zip)
+- Create Table: <a href=".\sqli\create-table.txt" target="_blank">create-table.sql</a>
+- Insert Into: <a href=".\sqli\insert-into.txt" target="_blank">insert-into.sql</a>
+  
+<a href="#">To top</a>
 
 #### XSS
 - Setup files: [Labsetup.zip](./xss/Labsetup.zip)
