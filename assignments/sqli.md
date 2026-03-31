@@ -16,8 +16,8 @@ This lab explores SQL injection vulnerabilities in web applications. Students wi
 - Prepared statements
 
 ### References 
-[Bobby Tables](https://bobby-tables.com/): A guide to preventing SQL injection
-[SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- [Bobby Tables](https://bobby-tables.com/): A guide to preventing SQL injection
+- [SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 
 ---
 
@@ -176,6 +176,11 @@ The goal is to change another user’s password by injecting malicious input int
 Log in as **Boby** using the new password.
 
 **Note**: Passwords are stored as `SHA‑1` hashes.
+
+Multiple ways to generate SHA1 of a password:
+- `mysql> select sha1('new_password');`
+- [CyberChef](https://gchq.github.io/CyberChef/) and search for SHA1
+- `echo -n 'new_password' | openssl sha1`
 
 ### Task 4 — Countermeasure: Prepared Statements
 This task introduces a key defense against SQL injection. The goal is to rewrite vulnerable code using prepared statements so that user input cannot alter the structure of SQL queries. You will apply secure coding practices to harden the application.
