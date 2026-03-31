@@ -23,6 +23,7 @@ This is the website for CS335, Cybersecurity, at York College. All information a
 * **Apr 30** &mdash; Project Presentations
 * **Apr 28** &mdash; Project Presentations
 * **Apr 16** &mdash; [Project](assignments/project.html) Code, Slides, Report Due
+* **Apr 09** &mdash; SQLi [Lab](assignments/sqli.html) Due
 * **Apr 02** &mdash; XSS [Lab](assignments/xss.html) Due
 * <span style="color:#888;">**Mar 26** &mdash; Attacks on Local DNS [Lab](assignments/dns.html) Due</span>
 * <span style="color:#888;">**Mar 10** &mdash; Attacks on TCP [Lab](assignments/tcp.html) Due</span>

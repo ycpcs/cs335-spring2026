@@ -43,7 +43,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 11 | Mar 24 | Cross-Site Scripting | IS: Ch 23 | [XSS Attacks](../assignments/xss.html)
 > 11 | Mar 26 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
-> 12 | Mar 31 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
+> 12 | Mar 31 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 | [SQL Injection](../assignments/sqli.html)
 > 12 | Apr 02 | Clickjacking | IS: Ch 25 |
 > | | | |
 > 13 | Apr 07 | Password Cracking| |
