@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Clickjack](#clickjack)
 - [SQL](#sql)
 - [XSS](#xss)
 - [CSRF](#csrf)
@@ -26,6 +27,12 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+
+#### Clickjack 
+- iframe Demo: <a href=".\clickjack\index.txt" target="_blank">index.html</a> 
+- Labsetup: <a href=".\clickjack\Labsetup.zip">Labsetup.zip</a>
+
+<a href="#">To top</a>
 
 #### SQL
 - Setup files: [Labsetup.zip](./sqli/Labsetup.zip)
