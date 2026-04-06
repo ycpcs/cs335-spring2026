@@ -6,6 +6,7 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Password Cracking](#password-cracking)
 - [Clickjack](#clickjack)
 - [SQL](#sql)
 - [XSS](#xss)
@@ -27,6 +28,30 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+#### Password Cracking
+- John The Ripper
+  - ```git clone https://github.com/magnumripper/JohnTheRipper.git```
+  - ```cd ./JohnTheRipper/src```
+  - ```sudo apt-get install libssl-dev```
+  - ```./configure```
+  - ```make -s clean && make -sj4```
+  - ```pip install --user dpkt```
+- Single Crack Example:
+  - ```echo -n 'pAsSwOrD' | sha256sum```
+  - ```echo -n 'password:e37017560675e0e20ef952202f15099012e8840a089649d6680ed2d7eb34fcdf' > password.txt```
+  - ```sudo ./john --format=raw-sha256 --single password.txt```
+- Wordlists
+  - [rockyou.txt](pass\rockyou.txt.tar.gz), extract with ```tar -xvf rockyou.txt.tar.gz```
+  - [https://www.openwall.com/wordlists/](https://www.openwall.com/wordlists/)
+  - More under [resources](..\resources\index.html) ... 
+- Crack me
+  - [joke.docx](pass\joke.docx)
+  - [joke.pdf](pass\joke.pdf)
+  - [joke.zip](pass\joke.zip)
+    - ```sudo apt install p7zip-full``` 
+    - ```7z x joke.zip```
+
+<a href="#">To top</a>
 
 #### Clickjack 
 - iframe Demo: <a href=".\clickjack\index.txt" target="_blank">index.html</a> 
