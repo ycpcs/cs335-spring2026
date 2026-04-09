@@ -6,6 +6,8 @@ title: "Random Notes & Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Juice Shop Hints](#juice-shop-hints)
+- [Juice Shop Intro](#juice-shop-intro)
 - [Password Cracking](#password-cracking)
 - [Clickjack](#clickjack)
 - [SQL](#sql)
@@ -27,6 +29,80 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Juice Shop Hints 
+- General Guidance
+  - Explore the application thoroughly; unusual behavior is often intentional
+  - Review page source for hardcoded secrets, hidden links, or commented-out code
+  - Check `robots.txt` for hidden paths or subdomains
+  - Inspect `.js` files for hardcoded values, hidden routes, or API clues
+  - Use browser developer tools to inspect requests, responses, and storage
+  - Start with simple input before trying complex payloads
+- SQL Injection
+  - Try characters that might affect a query (e.g., quotes)
+  - Observe how parameters appear in URLs or request bodies
+  - Use a [SQLi cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) for common patterns and payload ideas
+- NoSQL Injection
+  - Consider how JSON-based queries work
+  - Modify parameters directly in the network tab
+  - Test unexpected data types or structures
+- Reflected / Stored / DOM XSS
+  - Look for inputs that reappear in the page or are stored and shown later
+  - Test simple HTML tags to see what gets rendered
+  - Check how different pages sanitize or escape input
+  - Refer to an [XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) for common payload structures
+- Weak Passwords
+  - Think about predictable or default passwords
+  - Look for clues in user-visible content
+- Password Reset Issues
+  - Examine how the reset process verifies identity
+  - Consider what information might be publicly accessible
+- Login Bypasses
+  - Observe how the login form handles unexpected input
+  - Try interacting with the API directly
+- Horizontal Access Control
+  - Compare what different users can access
+  - Modify IDs in URLs or requests to test boundaries
+- Vertical Access Control
+  - Look for admin-only features hidden in the UI
+  - Attempt to access admin endpoints directly
+- Sensitive Data Exposure
+  - Explore publicly accessible folders and files
+  - Look for logs, backups, or configuration files
+  - Try opening referenced files directly
+- Input Validation
+  - Determine whether validation happens only on the front end
+  - Try disabling or modifying HTML elements (e.g., using dev tools)
+  - Check whether URL and API parameters are sanitized server-side
+- CSRF
+  - Identify actions that change data without re-authentication
+  - Check whether these actions can be triggered via simple links
+  - Inspect request headers for CSRF tokens or missing protections
+- Network Traffic Analysis
+  - Inspect all requests in the network tab
+  - Look for identifiers, hardcoded credentials, or unusual parameters
+  - Check for custom headers or missing security headers
+  - Compare request/response patterns when editing or replying to content
+  - Trigger or observe server exceptions to reveal additional information
+- File Handling and Path Issues
+  - To test file download restrictions, try alternate extensions or encodings
+  - A NULL byte followed by a permitted extension may bypass filters in some systems
+  - Example pattern: `http://localhost:9090/api/coupons.md.bak%2500.md`
+    - The encoding `%2500` is a double-encoded sequence where `%25` represents the percent sign `%` and `00` represents the null character `\u0000` 
+      - First Decoding: `%25` decodes to the literal character `%`, resulting in `%00`
+      - Second Decoding: `%00` decodes to the ASCII NUL (null) character, which is a non-printable control character (decimal `0` or hex `00`)
+
+<a href="#">To top</a>
+
+#### Juice Shop Intro
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
+  - Demo at [https://demo.owasp-juice.shop/#/](https://demo.owasp-juice.shop/#/)
+  - [slides](https://juice-shop.github.io/juice-shop/#/)
+- ```docker pull bkimminich/juice-shop```
+- ```docker run --rm -p 3000:3000 bkimminich/juice-shop```
+  - Navigate to http://localhost:3000 
+
+<a href="#">To top</a>
 
 #### Password Cracking
 - John The Ripper
