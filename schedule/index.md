@@ -46,14 +46,14 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 12 | Mar 31 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 | [SQL Injection](../assignments/sqli.html)
 > 12 | Apr 02 | Clickjacking | IS: Ch 25 |
 > | | | |
-> 13 | Apr 07 | Password Cracking| |
+> 13 | Apr 07 | Password Cracking | |
 > 13 | Apr 09 | Game | |
 > | | | |
 > 14 | Apr 14 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a>  | |
 > 14 | Apr 16 | Thread Modeling | |
 > | | | |
-> 15 | Apr 21 | Match | |
-> 15 | Apr 23 | __Exam 2__ | |
+> 15 | Apr 21 | __Exam 2__ | |
+> 15 | Apr 23 | Match | |
 > | | | |
 > 16 | Apr 28 | *__Student Project Presentations__* | |
 > 16 | Apr 30 | *__Student Project Presentations__* | |
