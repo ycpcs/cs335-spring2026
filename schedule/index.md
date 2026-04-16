@@ -53,9 +53,9 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 14 | Apr 16 | Thread Modeling | |
 > | | | |
 > 15 | Apr 21 | __Exam 2__ | |
-> 15 | Apr 23 | Match | |
+> 15 | Apr 23 | *__Student Project Presentations__* | |
 > | | | |
-> 16 | Apr 28 | *__Student Project Presentations__* | |
+> 16 | Apr 28 | Reading Day | |
 > 16 | Apr 30 | *__Student Project Presentations__* | |
 > | | | |
 > 17 | May 05 | *__Student Project Presentations__* | |
