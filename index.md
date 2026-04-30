@@ -19,7 +19,6 @@ This is the website for CS335, Cybersecurity, at York College. All information a
 
 ## News
 
-* **May 05** &mdash; Project Presentations (as needed)
 * **Apr 30** &mdash; Project Presentations
 * **Apr 28** &mdash; Project Presentations
 * **Apr 16** &mdash; [Project](assignments/project.html) Code, Slides, Report Due
