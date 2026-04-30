@@ -57,8 +57,6 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > | | | |
 > 16 | Apr 28 | Reading Day | |
 > 16 | Apr 30 | *__Student Project Presentations__* | |
-> | | | |
-> 17 | May 05 | *__Student Project Presentations__* | |
 
 <sup>*</sup> Optional 
 
